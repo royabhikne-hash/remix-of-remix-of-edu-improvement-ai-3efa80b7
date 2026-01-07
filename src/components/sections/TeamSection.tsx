@@ -4,6 +4,7 @@ import { Linkedin } from "lucide-react";
 import abhishekRoyImage from "@/assets/abhishek-roy.png";
 import ashvethPawarImage from "@/assets/ashveth-pawar.jpg";
 import deepikaSharmaImage from "@/assets/deepika-sharma.jpg";
+import subhamImage from "@/assets/subham.jpg";
 
 const TeamSection = () => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -44,8 +45,7 @@ const TeamSection = () => {
       role: "Frontend Developer",
       mission:
         "Builds student-facing and school dashboard interfaces with mobile-first focus.",
-      image:
-        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
+      image: subhamImage,
       linkedin: "#",
     },
   ];
