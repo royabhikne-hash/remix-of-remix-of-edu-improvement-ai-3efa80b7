@@ -1,6 +1,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import { Linkedin, Twitter } from "lucide-react";
+import { Linkedin } from "lucide-react";
+import abhishekRoyImage from "@/assets/abhishek-roy.png";
 
 const TeamSection = () => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -13,12 +14,12 @@ const TeamSection = () => {
 
   const team = [
     {
-      name: "Dr. Priya Sharma",
+      name: "Abhishek Roy",
       role: "Founder & CEO",
       mission:
         "Education should empower, not overwhelm. Every student deserves clarity.",
-      image:
-        "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&crop=face",
+      image: abhishekRoyImage,
+      linkedin: "https://www.linkedin.com/in/abhishek-roy-8286663a1",
     },
     {
       name: "Rajesh Kumar",
@@ -27,6 +28,7 @@ const TeamSection = () => {
         "Technology is meaningful only when it genuinely helps people learn better.",
       image:
         "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+      linkedin: "#",
     },
     {
       name: "Ananya Iyer",
@@ -35,6 +37,7 @@ const TeamSection = () => {
         "The best study tools are invisible—they just help students succeed.",
       image:
         "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&crop=face",
+      linkedin: "#",
     },
     {
       name: "Vikram Patel",
@@ -43,6 +46,7 @@ const TeamSection = () => {
         "Real impact happens when schools, parents, and students work together.",
       image:
         "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
+      linkedin: "#",
     },
   ];
 
@@ -154,22 +158,15 @@ const TeamSection = () => {
                 >
                   <div className="flex gap-3">
                     <motion.a
-                      href="#"
+                      href={member.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       whileHover={{ scale: 1.1 }}
                       whileTap={{ scale: 0.95 }}
                       className="w-10 h-10 bg-primary-foreground/20 backdrop-blur-sm rounded-full flex items-center justify-center text-primary-foreground hover:bg-primary-foreground/30 transition-colors"
                       aria-label={`${member.name}'s LinkedIn`}
                     >
                       <Linkedin size={18} />
-                    </motion.a>
-                    <motion.a
-                      href="#"
-                      whileHover={{ scale: 1.1 }}
-                      whileTap={{ scale: 0.95 }}
-                      className="w-10 h-10 bg-primary-foreground/20 backdrop-blur-sm rounded-full flex items-center justify-center text-primary-foreground hover:bg-primary-foreground/30 transition-colors"
-                      aria-label={`${member.name}'s Twitter`}
-                    >
-                      <Twitter size={18} />
                     </motion.a>
                   </div>
                 </motion.div>
