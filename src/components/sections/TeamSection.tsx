@@ -52,10 +52,18 @@ const TeamSection = () => {
 
   const opsTeam = [
     {
-      name: "Shivraj Kumar Yadav",
+      name: "Zulfequar Ahmad",
       role: "Chief Operating Officer",
       mission:
-        "Manages operations, school onboarding strategy, partnerships, and execution on the ground.",
+        "Leads overall operations, strategic partnerships, and ensures seamless execution across all teams.",
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
+      linkedin: "#",
+    },
+    {
+      name: "Shivraj Kumar Yadav",
+      role: "Director of Operations",
+      mission:
+        "Manages school onboarding strategy, partnerships, and execution on the ground.",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
       linkedin: "#",
     },
