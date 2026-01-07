@@ -2,6 +2,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import { Linkedin } from "lucide-react";
 import abhishekRoyImage from "@/assets/abhishek-roy.png";
+import ashvethPawarImage from "@/assets/ashveth-pawar.jpg";
 
 const TeamSection = () => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -22,28 +23,27 @@ const TeamSection = () => {
       linkedin: "https://www.linkedin.com/in/abhishek-roy-8286663a1",
     },
     {
-      name: "Rajesh Kumar",
+      name: "Ashveth Pawar",
       role: "Chief Technology Officer",
       mission:
-        "Technology is meaningful only when it genuinely helps people learn better.",
-      image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
-      linkedin: "#",
+        "Leads overall technical architecture, system scalability, and AI integration.",
+      image: ashvethPawarImage,
+      linkedin: "https://www.linkedin.com/in/ashveth-pawar-820921327",
     },
     {
-      name: "Ananya Iyer",
-      role: "Head of Education",
+      name: "Deepika Sharma",
+      role: "Backend Developer",
       mission:
-        "The best study tools are invisible—they just help students succeed.",
+        "Handles backend development, database design, APIs, and server-side logic.",
       image:
         "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&crop=face",
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/deepika-sharma-3b7348219",
     },
     {
-      name: "Vikram Patel",
-      role: "Head of Partnerships",
+      name: "Subham",
+      role: "Frontend Developer",
       mission:
-        "Real impact happens when schools, parents, and students work together.",
+        "Builds student-facing and school dashboard interfaces with mobile-first focus.",
       image:
         "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
       linkedin: "#",
