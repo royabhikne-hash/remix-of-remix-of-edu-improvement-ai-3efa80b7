@@ -91,11 +91,21 @@ const HeroSection = () => {
               variants={itemVariants}
               className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center lg:justify-start mb-8 md:mb-12"
             >
-              <Button variant="hero" size="lg" className="group text-sm md:text-base">
+              <Button 
+                variant="hero" 
+                size="lg" 
+                className="group text-sm md:text-base"
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+              >
                 Request School Demo
                 <ArrowRight className="group-hover:translate-x-1 transition-transform" />
               </Button>
-              <Button variant="heroSecondary" size="lg" className="text-sm md:text-base">
+              <Button 
+                variant="heroSecondary" 
+                size="lg" 
+                className="text-sm md:text-base"
+                onClick={() => document.getElementById('team')?.scrollIntoView({ behavior: 'smooth' })}
+              >
                 Meet the Team
               </Button>
             </motion.div>

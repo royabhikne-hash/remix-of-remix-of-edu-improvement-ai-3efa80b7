@@ -6,6 +6,7 @@ import ashvethPawarImage from "@/assets/ashveth-pawar.jpg";
 import deepikaSharmaImage from "@/assets/deepika-sharma.jpg";
 import subhamImage from "@/assets/subham.jpg";
 import zulfequarAhmadImage from "@/assets/zulfequar-ahmad.jpg";
+import shivrajYadavImage from "@/assets/shivraj-yadav.jpg";
 
 const TeamSection = () => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -65,7 +66,7 @@ const TeamSection = () => {
       role: "Director of Operations",
       mission:
         "Manages school onboarding strategy, partnerships, and execution on the ground.",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+      image: shivrajYadavImage,
       linkedin: "#",
     },
     {
