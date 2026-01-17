@@ -97,7 +97,7 @@ const HeroSection = () => {
                 className="group text-sm md:text-base"
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               >
-                Request School Demo
+                Contact Us
                 <ArrowRight className="group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button 
