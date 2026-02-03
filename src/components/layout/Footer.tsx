@@ -1,4 +1,5 @@
 import { Mail, Phone, MapPin } from "lucide-react";
+import { Link } from "react-router-dom";
 import studyBuddyLogo from "@/assets/study-buddy-logo.jpeg";
 
 const Footer = () => {
@@ -76,8 +77,8 @@ const Footer = () => {
             © {new Date().getFullYear()} Study Buddy AI. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm text-primary-foreground/60">
-            <a href="#" className="hover:text-primary-foreground transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-primary-foreground transition-colors">Terms of Service</a>
+            <Link to="/privacy-policy" className="hover:text-primary-foreground transition-colors">Privacy Policy</Link>
+            <Link to="/terms-of-service" className="hover:text-primary-foreground transition-colors">Terms of Service</Link>
           </div>
         </div>
       </div>
