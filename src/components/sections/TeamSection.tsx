@@ -7,6 +7,7 @@ import deepikaSharmaImage from "@/assets/deepika-sharma.jpg";
 import subhamImage from "@/assets/subham.jpg";
 import zulfequarAhmadImage from "@/assets/zulfequar-ahmad.jpg";
 import shivrajYadavImage from "@/assets/shivraj-yadav.jpg";
+import sambharamImage from "@/assets/sambharam.jpg";
 
 const TeamSection = () => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -54,16 +55,24 @@ const TeamSection = () => {
 
   const opsTeam = [
     {
-      name: "Zulfequar Ahmad",
+      name: "Sambharam G",
       role: "Chief Operating Officer",
       mission:
         "Leads overall operations, strategic partnerships, and ensures seamless execution across all teams.",
+      image: sambharamImage,
+      linkedin: "https://www.linkedin.com/in/sambhram-g-b2826b371",
+    },
+    {
+      name: "Zulfequar Ahmad",
+      role: "Ground Operations Team",
+      mission:
+        "Works directly with schools for demos, onboarding, feedback collection, and daily coordination.",
       image: zulfequarAhmadImage,
       linkedin: "#",
     },
     {
       name: "Shivraj Kumar Yadav",
-      role: "Director of Operations",
+      role: "Ground Operations Team",
       mission:
         "Manages school onboarding strategy, partnerships, and execution on the ground.",
       image: shivrajYadavImage,
