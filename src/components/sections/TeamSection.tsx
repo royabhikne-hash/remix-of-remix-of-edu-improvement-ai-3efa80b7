@@ -10,6 +10,7 @@ import zulfequarAhmadImage from "@/assets/zulfequar-ahmad.jpg";
 import shivrajYadavImage from "@/assets/shivraj-yadav.jpg";
 import sambharamImage from "@/assets/sambharam.jpg";
 
+// TeamSection component - displays team members with optimized animations
 const TeamSection = () => {
   const reducedMotion = useReducedMotion();
 
